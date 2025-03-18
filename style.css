@@ -1,0 +1,87 @@
+/* Definindo as cores principais */
+:root {
+    --background-color: #f4f4f4; /* Cinza claro */
+    --primary-color: #2c3e50;    /* Azul escuro elegante */
+    --secondary-color: #ec7063; /* Coral suave */
+    --accent-color: #f39c12;    /* Dourado para destaque */
+    --text-color: #2d3436;      /* Preto acinzentado */
+    --light-text: #7f8c8d;      /* Cinza claro para texto secundário */
+  }
+  
+  /* Estilo do corpo */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalhos */
+  h1, h2, h3 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  /* Links */
+  a {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+  
+  /* Botões */
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Elementos de destaque */
+  .highlight {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  /* Seção com layout estiloso */
+  .section {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  .section-title {
+    color: var(--accent-color);
+    font-size: 1.8rem;
+  }
+  
